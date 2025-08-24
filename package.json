@@ -18,7 +18,7 @@
   "commit-and-tag-version": {
     "scripts": {
       "pretag": "npm run build",
-      "posttag": "cp assets/css/panel.*.css assets/css/panel.css"
+      "posttag": "mv assets/css/panel.*.css assets/css/panel.css"
     }
   },
   "packageManager": "pnpm@10.15.0",
