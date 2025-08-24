@@ -2,9 +2,15 @@
   "name": "{{project}}",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.php",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky",
+    "clean": "rimraf assets/css assets/js --verbose",
+    "bundle": "node ./esbuild.config.mjs",
+    "build": "npm run clean && npm run bundle -- production && hashup",
+    "bs": "browser-sync start --config 'browsersync.config.js'",
+    "start": "concurrently -n bundle,server,bs -c blue,yellow,green \"npm:bundle -- dev\" \"composer start\" \"npm:bs\""
   },
   "keywords": [],
   "author": "",
