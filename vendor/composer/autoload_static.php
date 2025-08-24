@@ -14,12 +14,14 @@ class ComposerStaticInit105bdebb4f85d523ec300b8b93b40671
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         'f864ae44e8154e5ff6f4eec32f46d37f' => __DIR__ . '/../..' . '/kirby/config/setup.php',
         '87988fc7b1c1f093da22a1a3de972f3a' => __DIR__ . '/../..' . '/kirby/config/helpers.php',
+        'fc635e12fa049fcdd62fd78fae3d55c3' => __DIR__ . '/../..' . '/site/plugins/kirby-meta-tags/helpers.php',
     );
 
     public static $prefixLengthsPsr4 = array (
         'W' => 
         array (
             'Whoops\\' => 7,
+            'Wearejust\\KirbyMetaTags\\' => 24,
         ),
         'S' => 
         array (
@@ -57,6 +59,10 @@ class ComposerStaticInit105bdebb4f85d523ec300b8b93b40671
         'Whoops\\' => 
         array (
             0 => __DIR__ . '/..' . '/filp/whoops/src/Whoops',
+        ),
+        'Wearejust\\KirbyMetaTags\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/site/plugins/kirby-meta-tags/src',
         ),
         'Symfony\\Polyfill\\Mbstring\\' => 
         array (
@@ -552,6 +558,8 @@ class ComposerStaticInit105bdebb4f85d523ec300b8b93b40671
         'Symfony\\Polyfill\\Intl\\Idn\\Resources\\unidata\\Regex' => __DIR__ . '/..' . '/symfony/polyfill-intl-idn/Resources/unidata/Regex.php',
         'Symfony\\Polyfill\\Intl\\Normalizer\\Normalizer' => __DIR__ . '/..' . '/symfony/polyfill-intl-normalizer/Normalizer.php',
         'Symfony\\Polyfill\\Mbstring\\Mbstring' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/Mbstring.php',
+        'Wearejust\\KirbyMetaTags\\MetaTags' => __DIR__ . '/../..' . '/site/plugins/kirby-meta-tags/src/MetaTags.php',
+        'Wearejust\\KirbyMetaTags\\Tags' => __DIR__ . '/../..' . '/site/plugins/kirby-meta-tags/src/Tags.php',
         'Whoops\\Exception\\ErrorException' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Exception/ErrorException.php',
         'Whoops\\Exception\\Formatter' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Exception/Formatter.php',
         'Whoops\\Exception\\Frame' => __DIR__ . '/..' . '/filp/whoops/src/Whoops/Exception/Frame.php',

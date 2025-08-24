@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3a66668c895bd7ca7c7f8d716e724ae9",
+    "content-hash": "6b00f6f6cfc57cddbfb188cbc6e34afe",
     "packages": [
         {
             "name": "christian-riesen/base32",
@@ -1258,6 +1258,69 @@
                 }
             ],
             "time": "2025-07-10T08:47:49+00:00"
+        },
+        {
+            "name": "wearejust/kirby-meta-tags",
+            "version": "3.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/wearejust/kirby-meta-tags.git",
+                "reference": "3d68875118b61442cf13db32bdf637888421428e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/wearejust/kirby-meta-tags/zipball/3d68875118b61442cf13db32bdf637888421428e",
+                "reference": "3d68875118b61442cf13db32bdf637888421428e",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.1",
+                "php": ">=8.0"
+            },
+            "type": "kirby-plugin",
+            "extra": {
+                "installer-name": "kirby-meta-tags",
+                "kirby-cms-path": false
+            },
+            "autoload": {
+                "files": [
+                    "helpers.php"
+                ],
+                "psr-4": {
+                    "Wearejust\\KirbyMetaTags\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Cees van Egmond",
+                    "email": "cees.vanegmond@wearejust.com"
+                },
+                {
+                    "name": "Sietse Veenman",
+                    "email": "sietse.veenman@wearejust.com"
+                },
+                {
+                    "name": "Duncan Pronk",
+                    "email": "duncan.pronk@wearejust.com"
+                }
+            ],
+            "description": "HTML meta tags generator for Kirby 3.",
+            "homepage": "https://github.com/wearejust/kirby-meta-tags",
+            "keywords": [
+                "JSON-LD",
+                "kirby-plugin",
+                "meta-tags",
+                "open-graph",
+                "twitter-cards"
+            ],
+            "support": {
+                "source": "https://github.com/wearejust/kirby-meta-tags/tree/3.0.1"
+            },
+            "time": "2023-03-13T15:15:17+00:00"
         }
     ],
     "packages-dev": [],
