@@ -19,7 +19,6 @@ Icon
 # (sensitive workspace files)
 # ---------------------------
 *.sublime-workspace
-/.vscode
 /.idea
 
 # -------------SECURITY-------------
