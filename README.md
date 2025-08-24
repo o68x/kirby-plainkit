@@ -1,13 +1,6 @@
 <img src="http://getkirby.com/assets/images/github/plainkit.jpg" width="300">
 
-**Kirby: the CMS that adapts to any project, loved by developers and editors alike.**
-The Plainkit is a minimal Kirby setup with the basics you need to start a project from scratch. It is the ideal choice if you are already familiar with Kirby and want to start step-by-step.
-
-You can learn more about Kirby at [getkirby.com](https://getkirby.com).
-
-### Try Kirby for free
-
-You can try Kirby and the Plainkit on your local machine or on a test server as long as you need to make sure it is the right tool for your next project. … and when you’re convinced, [buy your license](https://getkirby.com/buy).
+## Template for new Kirby website
 
 ### Get going
 
