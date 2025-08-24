@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /kirby/
+Disallow: /site/
+Disallow: /cdn-cgi/
+Allow: /media/
+Sitemap: https://{{project}}/sitemap.xml
