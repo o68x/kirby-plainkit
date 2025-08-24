@@ -1,5 +1,5 @@
 {
-  "name": "getkirby/project",
+  "name": "getkirby/{project}",
   "description": "Kirby Plainkit",
   "type": "project",
   "keywords": [
